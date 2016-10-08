@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version: >= 5.0.0.1
 
-Things you may want to cover:
+## Database
 
-* Ruby version
+Development: sqlite3
+
+Staging: postgresql
+
+Production: postgresql
+
+```rails
+rake db:create
+rake db:migrate
+rake db:seed
+```
 
 * System dependencies
-
 * Configuration
-
-* Database creation
-
 * Database initialization
-
 * How to run the test suite
-
 * Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
 
-* ...
